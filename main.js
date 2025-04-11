@@ -1,5 +1,5 @@
 import ConvertApi from 'convertapi-js'
-function uploadFiles(file, filename) {
+async function uploadFiles(file, filename) {
 let convertApi = ConvertApi.auth('token_vR27gJaw')
   const url = 'https://v2.convertapi.com/convert/pdf/to/jpg?secret=token_vR27gJaw';
   
